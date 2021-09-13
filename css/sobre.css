@@ -1,0 +1,26 @@
+main h2 {
+    margin-left: 6rem;
+}
+
+.integrantes {
+    margin-left: 7rem;
+}
+
+h2 {
+    padding-right: 1rem;
+}
+
+@media (max-width:768px) {
+    main h2 {
+        margin-left: 1rem;
+    }
+    .integrantes {
+        margin-left: .2rem;
+    }
+}
+
+@media (max-width:425px) {
+    main h2 {
+        margin-left: 0rem;
+    }
+}

@@ -101,7 +101,6 @@ main h2 {
     line-height: 20px;
     padding-left: .3rem;
     margin: 1rem 0;
-    margin-left: 6rem;
 }
 
 .lista-de-filmes {
@@ -156,10 +155,6 @@ main h2 {
 
 .botao:hover {
     box-shadow: 0px 0px 10px var(--primary);
-}
-
-.integrantes {
-    margin-left: 7rem;
 }
 
 @media (max-width:768px) {
