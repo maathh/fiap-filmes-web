@@ -107,7 +107,6 @@ main h2 {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    margin-left: -2rem;
 }
 
 .filme {
