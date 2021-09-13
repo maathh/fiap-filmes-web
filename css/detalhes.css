@@ -1,0 +1,126 @@
+section {
+    position: relative;
+}
+
+#poster-filme {
+    object-fit: cover;
+    object-position: right top;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    box-shadow: inset 0px -25px 25px #212121;
+    z-index: -100;
+    background-position: center;
+    background-position-y: 30%;
+    filter: opacity(.4);
+}
+
+#filme-detalhes {
+    padding: 2.5rem 5rem;
+    display: flex;
+    position: relative;
+}
+
+#filme-detalhes #titulo {
+    width: 40%;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 56px;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 1rem;
+}
+
+#filme-detalhes #texto {
+    font-size: 1rem;
+    line-height: 24px;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 1rem;
+}
+
+#filme-detalhes .poster {
+    margin-right: 3rem;
+}
+
+main {
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-self: center;
+}
+
+#elenco-content {
+    flex: 3;
+}
+
+.botoes a {
+    margin: 1rem;
+    width: 7rem;
+    display: inline-block;
+}
+
+#lista-elenco {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.ator {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    max-width: 260px;
+}
+
+.ator-img {
+    object-fit: cover;
+    object-position: right top;
+    height: 150px;
+    width: 150px;
+    background-position: center;
+    background-position-y: 30%;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+.div-detalhes {
+    background-color: var(--bg2);
+}
+
+h3 {
+    margin-top: .7rem;
+}
+
+.ator div {
+    padding-top: 7.5rem;
+    text-align: center;
+    position: relative;
+    top: -80px;
+    width: 100%;
+    height: 150px;
+    border-radius: 8px;
+}
+
+.sub-text {
+    filter: opacity(.6);
+}
+
+#ficha-tecnica {
+    flex: 1;
+    min-width: 200px;
+    padding: .8rem;
+    border-radius: 8px;
+    margin: .5rem;
+}
+
+@media (max-width:620px) {
+    #foto-detalhes {
+        display: none;
+    }
+}
+
+@media (max-width:900px) {
+    main {
+        flex-direction: column;
+    }
+}
